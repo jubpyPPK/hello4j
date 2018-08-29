@@ -57,6 +57,11 @@
 			<scope>test</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>com.ascendcorp.logging.log4j</groupId>
+			<artifactId>acn-log4j</artifactId>
+			<version>1.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>

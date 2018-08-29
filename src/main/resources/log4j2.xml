@@ -2,7 +2,7 @@
 <Configuration>
     <Properties>
         <Property name="LOG_DIR">/data/logs/hello4j</Property>
-        <Property name="PATTERN">%d{yyyy-MM-dd'T'HH:mm:ss.SSSXXX} | %-5level | PPK | AppLog | Hello4j | %X{correlationId} | %X{transId} | JAVA | %msg%n </Property>
+        <Property name="PATTERN">%d{yyyy-MM-dd'T'HH:mm:ss.SSSXXX} | %-5level | PPK | AppLog | Hello4j | %X{correlationId} | %X{transId} | JAVA | %thread | %logger{0} | %msg%n </Property>
     </Properties>
     <CustomLevels>
         <CustomLevel name="EVENT" intLevel="450"/>
